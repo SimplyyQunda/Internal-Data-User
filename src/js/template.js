@@ -18,13 +18,15 @@ function internalForm (data) {
 		var SSN = data.id.value;
 
 
-		var HTML = `<img class="getUser" src="${user}"/>
-					<div class="name"> ${nameF} ${nameL} </div>
-					<div class="email"> ${email} </div>
-					<div class="location"> ${locateSt} </div>
-					<div class="location"> ${locateCity}, ${locateState}, ${locatePostcode} </div>
-					<div class="cell"> ${cellNums} </div>
-					<div class="socialNums"> ${SSN} </div>
+		var HTML = `<div id="userBox">
+						<img class="getUser" src="${user}"/>
+						<div class="name"> ${nameF} ${nameL} </div>
+						<div class="email"> ${email} </div>
+						<div class="contact"> ${locateSt} </div>
+						<div class="contact"> ${locateCity}, ${locateState}, ${locatePostcode} </div>
+						<div class="contact"> ${cellNums} </div>
+						<div class="socialNums"> ${SSN} </div>
+					</div>
 
 
 

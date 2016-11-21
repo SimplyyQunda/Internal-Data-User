@@ -1,0 +1,51 @@
+@import "bulma";
+
+#userBox{
+	float: left;
+	margin-left: 23px;
+	text-align: center;
+	margin-bottom: 38px;
+}
+
+img{
+    width: 245px;
+    border-radius: 8px;
+}
+
+.name{
+	font-family: 'Cinzel', serif;
+	font-size: 25px;
+	margin-bottom: 2px;	
+}
+
+.email{
+	font-family: 'Quicksand';
+	font-size: 15px;
+    color: grey;
+    margin-bottom: 15px;
+}
+.contact{
+	font-family: 'Quicksand';
+	font-size: 14px;
+	color: black;
+}
+
+.socialNums{
+	margin-top: 15px;
+	transition: all 0.5s ease;
+	color: transparent;
+    text-shadow: 0 0 5px grey;
+
+    &:hover{
+    	color: black;
+        text-shadow: none;
+    }
+}
+
+#logo{
+	width: 455px;
+    height: 106px;
+    margin-left: 409px;
+    margin-bottom: 43px;
+    margin-top: 18px;
+}
